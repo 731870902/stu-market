@@ -1,0 +1,162 @@
+@charset "utf-8";
+*{
+    margin:0;padding:0;
+}
+body{
+    background-color: #f5f5f5;
+}
+#header{
+    width: 100%;
+    height: 106px;
+}
+#top{
+    width: 1000px;
+    min-height: 50px;
+    margin: 50px auto 0 auto;
+}
+#logo,#hl{
+    float: left;
+}
+#top_input{
+    margin-left: 40px;
+    margin-top: 3px;
+    position: relative;
+}
+#top_input #input {
+    width: 409px;
+    height: 36px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #0AA1ED;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.seek {
+    width: 97px;
+    position: absolute;
+    height: 92px;
+    top: 1px;
+    right: 36px;
+    z-index: 1000;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+    color: #c3c3c3;
+    font: 14px simhei;
+    padding-top: 8px;
+}
+#actived{
+    position: relative;
+    display: inline-block;
+}
+#seek_content{
+    position: absolute;
+    background-color: #f5f5f5;
+    display: none;
+    font-size: 18px;
+}
+#actived:hover #seek_content{
+    display: block;
+}
+#studyoods:hover{
+    color: red;
+}
+#personalmade:hover{
+    color: red;
+}
+#rbtn{
+    width: 36px;
+    height: 35px;
+    position: relative;
+    float: right;
+}
+#hr{
+    width: 347px;
+    height: 41px;
+    margin: 0px 0px 0px 653px;
+
+}
+#hr_it{
+    width: 189px;
+    height: 41px;
+    margin-left: 155px;
+}
+li{
+    list-style: none;
+    float: left;
+
+
+}
+a{
+    text-decoration: none;
+    color: #808080;
+}
+#header a:hover{
+    color: #0aa1ed;
+    background-color: blanchedalmond;
+}
+#hr_it img:hover{
+    background-color: blanchedalmond;
+}
+#hr ul li b{
+    position: relative;
+    top: -5px;
+    right: -1px;
+
+    font-weight: inherit;
+ }
+#hr ul li{
+    line-height: 40px;
+    padding: 2px 0px 2px 8px;
+    float: left;
+    font-size: 14px;
+ }
+.log_reg{
+    margin-top: -5px;
+}
+#nav{
+    width: 1000px;
+    min-height: 50px;
+    line-height: 25px;
+    margin: 30px auto 0 auto;
+}
+#nav li{
+    padding: 0 20px 0 0px;
+}
+.floor{
+    width: 1000px;
+    margin: 24px auto 0;
+    height: auto;
+}
+.floor_top{
+    width: 1000px;
+    height: 27px;
+    margin: 0 0 10px ;
+    padding-top: 4px;
+    font-size: 24px;
+    border-bottom: 2px solid #d9d9d9;
+}
+
