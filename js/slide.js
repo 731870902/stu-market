@@ -1,4 +1,4 @@
-// (function($){
+(function($){});
 //     $.fn.ckSlide = function(opts){
 //         //.extend() 扩展jQuery类，添加ckSlide方法，参数是对象类型{}
 //         opts = $.extend({}, $.fn.ckSlide.opts, opts);
