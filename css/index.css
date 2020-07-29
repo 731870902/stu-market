@@ -118,6 +118,10 @@ a{
     color: #0aa1ed;
     background-color: blanchedalmond;
 }
+#foot a:hover{
+    color: #0aa1ed;
+    background-color: blanchedalmond;
+}
 #hr_it img:hover{
     background-color: blanchedalmond;
 }
@@ -167,6 +171,60 @@ a{
     text-align: center;
     clear: both;
     margin: 43px auto 74px;
-    background-color: red;
+}
+#foot-box li{
+    margin: 0 90px;
+}
+#foot-bg{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+#foot{
+    width: 1000px;
+    height: 240px;
+    margin: 10px auto;
+}
+#footl{
+    width: 300px;
+    position: absolute;
+    margin: 40px 0 0 20px;
+}
+#footm{
+    margin: 40px 0 0 320px;
+    float: left;
+}
+#footm table td{
+    font-size: 10px;
+    line-height: 30px;
+}
+#footr{
+    width: 300px;
+    margin: auto 0 0 640px;
+    position: relative;
+}
+#footr-content{
+    float: left;
+    margin: 40px 0 0 80px;
+}
+#footr-content  p{
+    margin: 0 auto 5px 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+#client{
+    position: absolute;
+}
+#erweima{
+    width: 100px;
+    height: 100px   ;
+    float: left;
+    margin: 16px 0 0 125px ;
+}
+#copy{
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    margin: 40px 0px 0 330px;
 }
 

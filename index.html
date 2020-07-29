@@ -9,6 +9,13 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/slide.js"></script>
     <link rel="shortcut icon" href="images/logo.ico">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+           $("#headerpage").load("footer.html");
+            //alert("1111");
+        });
+    </script>
 </head>
 <body>
 <!--头部-->
@@ -224,15 +231,7 @@
     <div class="floor_content"></div>
 </div>
 <!--页脚-->
-<div class="footer">
-    <div id="foot-box">
-
-    </div>
-    <div id="foot">
-
-    </div>
-</div>
-
+<div id="headerpage"></div>
 
 </body>
 </html>
