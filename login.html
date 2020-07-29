@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>学子商城登录页面</title>
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <script type="text/javascript" src="#"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            $("#headerpage").load("shareHtml/footer.html");
+        });
+    </script>
+
+</head>
+<body>
+<!--页面顶部-->
+<div id="header">
+    <div >
+        <img src="images/header/logo.png"  style="float: left"/>
+        <div id="box">
+            <span >欢迎登录</span>
+        </div>
+    </div>
+</div>
+<!--登陆窗口-->
+<div id="middle">
+    <div id="login-win">
+        <p style="color: #fff; font-size: 18px ;margin-left: 15px">登录学子商城</p>
+        <hr>
+        <div>
+            <form action="" method="get" name="login">
+                <div class="photo">
+                    <input type="text" class="userName" placeholder="请输入的您的用户名">
+                    <img src="images/header/yhm.png" height="28" width="28"/>
+                </div>
+                <p style="color: red;font-size: 12px;line-height: 16px">用户名不能为空</p>
+                <div class="photo">
+                    <input type="password" class="userPassword" placeholder="请输入的您的密码"><br>
+                    <img src="images/header/mm.png" height="28" width="28"/>
+                </div>
+                <div id="autologin">
+                    <input type="checkbox" name="autologin"  >
+                </div>
+                <br>
+                <span style="line-height: 20px;color: #fff;font-size: 12px">自动登录</span>
+                <div id="btn">
+                    <button type="submit">登录</button>
+                    <button type="reset">重置</button>
+                </div>
+                <p style="color: #e8e8e8;text-align: center;font-size: 18px">or</p>
+                <a href="register.html" style="margin-left: 40px">没有账号？注册一个</a>
+            </form>
+        </div>
+    </div>
+</div>
+<!--页脚-->
+<div id="headerpage"></div>
+</body>
+</html>

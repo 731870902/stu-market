@@ -1,0 +1,70 @@
+@charset "utf-8";
+#header{
+    width: 1000px;
+    height: 80px;
+    margin: 20px auto;
+}
+#box{
+    margin-top: 10px;
+    float: left;
+}
+#header span{
+    font-size: 24px;
+    margin: 5px 0 0 10px;
+}
+#middle{
+    width: 100%;
+    height: 560px;
+    background-image: url("../images/index/login_bg.png");
+    overflow: hidden;
+}
+#login-win{
+    float: right;
+    width: 250px;
+    height: 290px;
+    margin-right: 200px;
+    margin-top: 120px;
+    background: rgba(0,0,0,0.3);
+    float: right;
+}
+#login-win input,p,a,span{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#login-win input{
+    width: 95%;
+    height: 28px;
+    position: relative;
+}
+#photo{
+    margin-top: -5px;
+    margin-right: 20px;
+    float: left;
+
+}
+.photo img{
+    float: right;
+    position: relative;
+    margin-top: -30px;
+    margin-right: 8px;
+}
+#autologin{
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 0 0 ;
+    float: left;
+}
+#btn{
+    width: 80%;
+    margin: 15px auto 0 auto;
+}
+#btn button{
+    width: 85px;
+    height: 30px;
+    background: #27b1f6;
+    border: none;
+    margin-right:2px ;
+}
+a:hover{
+    color: #27b1f6;
+}
