@@ -3,10 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>学子商城注册页面</title>
-    <link rel="stylesheet" href="#" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/login_rigist.css" type="text/css">
     <script type="text/javascript" src="#"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script>
+        window.onload=function(){
+            var oInput = document.getElementById("user");
+            oInput.focus();
+            alert("554");
+        }
+        $(function () {
+            $("#headerpage").load("shareHtml/footer.html");
+        });
+    </script>
+
 </head>
 <body>
+<!--页面顶部-->
+<div id="header">
+    <div >
+        <img src="images/header/logo.png"  style="float: left"/>
+        <div id="box">
+            <span >欢迎登录</span>
+        </div>
+    </div>
+</div>
+<!--注册窗口-->
+<div id="middle">
+    <div>
+        <div id="regist-win">
+            <span style="color: #fff; font-size: 18px ;margin: 0 75px 0 15px">新用户注册</span>
+            <a href="login.html"><span style="font-size: 10px">直接登录</span></a>
+            <form action="" method="get" name="register">
+                <div>
+                    <lable>用户名：</lable>
+                    <input type="text" placeholder="请输入用户名" id="username">
+                </div>
+                <p>
+                    登录密码：<input type="text" placeholder="请输入密码" id="password">
+                </p>
 
+                确认密码：<input type="text" placeholder="请确认密码" id="affirmpwd"><br>
+                邮箱：<input type="text" placeholder="请输入邮箱地址" id="email"><br>
+                手机号：<input type="text" placeholder="请输入您的手机号" id="phoneNumber"><br>
+                <button type="submit" > <span style="color: #fff">提交注册信息</span></button>
+            </form>
+        </div>
+        <div id="msg">
+            <div class="username">
+                <p class="unselected">用户名不能为空</p>
+                <p class="selected">用户名长度在6-9之间</p>
+            </div>
+            <div class="pwd">
+                <p class="unselected">密码不能为空</p>
+                <p class="selected">密码长度在6-12之间</p>
+            </div>
+            <div class="affirmpwd">
+                <p class="unselected">确认密码不能为空</p>
+                <p class="selected">密码长度在6-12之间</p>
+            </div>
+            <div class="email">
+                <p class="unselected">邮箱不能为空</p>
+                <p class="selected">请输入合法的邮箱</p>
+            </div>
+            <div class="phoneNumber">
+                <p class="unselected">手机号不能为空</p>
+                <p class="selected">请输入合法的手机号</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--页脚-->
+<div id="headerpage"></div>
 </body>
 </html>

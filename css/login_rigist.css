@@ -68,3 +68,38 @@
 a:hover{
     color: #27b1f6;
 }
+#regist-win{
+    float: right;
+    width: 330px;
+    height: 450px;
+    margin-right: 260px;
+    margin-top: 40px;
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+}
+#regist-win input {
+    float: right;
+    width: 72%;
+    height: 25px;
+    margin: 15px auto;
+}
+
+#regist-win button{
+    background-color: #0AA1ED;
+    border: none;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 42px   ;
+}
+#msg{
+    width: 220px;
+    height: 450px;
+    background: rgba(0,0,0,0.1);
+    float: right;
+    margin-right: -550px;
+    margin-top: 40px;
+}
+#username,#email,#phoneNumber,#pwd,#affirmpwd,#email{
+    margin: 15px auto;
+    border: 1px solid #27b1f6;
+}
